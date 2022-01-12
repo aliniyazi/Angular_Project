@@ -1,0 +1,15 @@
+<a [routerLink]="['/users',user.userId]">
+  <div class="card" style="width: 18rem">
+    <img
+      class="card-img-top"
+      src="assets/images/profile.png"
+      alt="Card image cap"
+    />
+    <div class="card-body">
+      <h5 class="card-title">User Name: {{ user.userName }}</h5>
+      <p class="card-text">Email: {{ user.email }}</p>
+    </div>
+  </div>
+  <br />
+  <hr />
+</a>

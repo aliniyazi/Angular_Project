@@ -1,0 +1,24 @@
+.image{
+    border-radius: 75px;
+    transition: transform .2s;
+    margin-left: 40%;
+}
+.image:hover{
+    transform:scale(1.5);
+}
+.text{
+    font-size: 50px;
+    object-position: 50% 50%;
+    position: relative;
+    margin-left: 5%;
+    color: rgb(48, 18, 119);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: transform .2s
+}
+.text:hover{
+    transform:scale(1.5);
+}
+.list-group-item{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}

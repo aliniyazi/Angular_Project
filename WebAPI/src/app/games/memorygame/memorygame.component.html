@@ -1,0 +1,12 @@
+<div class="form-control">
+    <label class="form-control" id="randomnumber" for="text">{{randomNumber}}</label>
+</div>
+<div id="inputs" class="form-control">
+    <input class="form-control" id="clean" type="text" [(ngModel)]="input" placeholder="Write Here">
+    <button class="btn btn-info" (click)="onNext()">Next</button>
+    <label id="score" class="form-control" for="text">Your score is: {{score}}</label>
+    <button (click)="onSaveScore()" id="button" class="btn btn-success">Save Score</button>
+</div>
+<div class="form-control">
+    <p class="text">Your Last score is:   {{lastScore}}</p> 
+</div>
